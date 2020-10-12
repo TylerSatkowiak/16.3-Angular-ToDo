@@ -1,0 +1,40 @@
+.redtext{
+    color: red;
+    font-weight: bold;
+}
+.greentext{
+    color: green;
+    font-weight: bold;
+}
+
+h1{
+    font-weight: 100;
+    font-size: xx-large;
+}
+ p{
+     font-weight: 100;
+     font-size: medium;
+ }
+
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+li::before{
+    content: '\1F95E'; margin-left: -20px; margin-right: 10px;
+}
+
+body{
+    background-image: linear-gradient(to left, #ff0000, #ff0036, #ff1959, #ff3578, #ff4d93, #ff529b, #ff56a4, #ff5bac, #ff4fa6, #ff41a0, #ff309a, #ff1493);
+    
+}
+
+ul{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0, .75);
+    
+    background-color: white;
+    justify-content:center;
+    display: flex;
+}
+
